@@ -1,1 +1,12 @@
-<span>test</span>
+<ng-particles
+  id="tsparticles"
+  [options]="options"
+  (particlesLoaded)="particlesLoaded($event)"
+  (particlesInit)="particlesInit($event)">
+</ng-particles>
+
+<section>
+  <h1>
+    Test TS Particles
+  </h1>
+</section>
