@@ -87,7 +87,7 @@ export class HomeComponent {
   options2: IParticlesProps = {
     background: {
       color: {
-        value: "#444444"
+        value: "#000"
       }
     },
     fpsLimit: 60,
